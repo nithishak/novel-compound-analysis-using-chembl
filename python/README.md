@@ -38,7 +38,7 @@ This output looks like this:
 <ol> -Following this, if we wish to analyze activities of these similar compounds, we can also do so by inputing their CHEMBL_ids to the function activities. 
 More information can be found at https://www.ebi.ac.uk/chembl/ws
 This output looks like this:</ol>
-![alt text](/python/readme_diagrams/2.png "Similar compounds' activities") 
+![alt text](python/readme_diagrams/2.png "Similar compounds' activities") 
 
 
 <ol> - Using the CHEMBL schema and the cheml_ids of the similar compounds, we can then utilize SQL inner joins to move across tables until we reach component synonym in the table component_synonyms - this gives us information about genes for proteins that the compounds similar to the compound of interest target. 
