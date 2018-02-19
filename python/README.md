@@ -32,28 +32,25 @@ canonical smiles for compound: Oc1ccc(cc1)\N=C(\Cc2ccc(Cl)cc2)/c3ccc(O)c(O)c3O <
 
 <ol> - One way to further try to understand how the compound works might be to do a smiliarity search on CHEMBL to obtain a list of other compounds that share a chemical structure similarity of 70% or more with the compound of interest. <br>
 This output looks like this:</ol>
-![alt text]((/readme_diagrams/1.png "List of similar compounds") 
+![1](https://user-images.githubusercontent.com/35882413/36399622-a9109102-159a-11e8-830d-d1d93ef5aa7c.png)
 
-
-<ol> -Following this, if we wish to analyze activities of these similar compounds, we can also do so by inputing their CHEMBL_ids to the function activities. 
-More information can be found at https://www.ebi.ac.uk/chembl/ws
+<ol> -Following this, if we wish to analyze activities of these similar compounds, we can also do so by inputing their CHEMBL_ids to the function activities. <br>
+More information can be found at https://www.ebi.ac.uk/chembl/ws <br>
 This output looks like this:</ol>
-![alt text](/readme_diagrams/2.png "Similar compounds activities") 
+![2](https://user-images.githubusercontent.com/35882413/36399711-2ad75bbc-159b-11e8-9e12-175de093b33f.png)
 
-
-<ol> - Using the CHEMBL schema and the cheml_ids of the similar compounds, we can then utilize SQL inner joins to move across tables until we reach component synonym in the table component_synonyms - this gives us information about genes for proteins that the compounds similar to the compound of interest target. 
-_23/chembl_23_schema.png
+<ol> - Using the CHEMBL schema and the cheml_ids of the similar compounds, we can then utilize SQL inner joins to move across tables until we reach component synonym in the table component_synonyms - this gives us information about genes for proteins that the compounds similar to the compound of interest target. <br>
 The figures below, which are part of CHEMBL schema, show how we can use SQL inner joins to cross over tables of information:
-![alt text](/python/readme_diagrams/3.1.png "CHEMBL schema")
-![alt text](/python/readme_diagrams/3.2.png "CHEMBL schema")
+![3 1](https://user-images.githubusercontent.com/35882413/36399741-4ab60adc-159b-11e8-9b0b-8bddd3c18678.png)
+![3 2](https://user-images.githubusercontent.com/35882413/36399742-4ad45096-159b-11e8-93b1-be28070397b6.png)
 
-This schema can be found at ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl
-This output looks like this:
-![alt text](/python/readme_diagrams/4.png "CHEMBL schema") </ol>
+This schema can be found at ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/chembl_23_schema.png <br>
+This output looks like this: <br>  </ol>
+![4](https://user-images.githubusercontent.com/35882413/36399752-5bf8e396-159b-11e8-9be8-9e6c96da27f8.png)
 
 <ol> - Lastly, we choose the columns that contain relevant information that we need and manipulate the data from the SQL query accordingly to get a dataframe. 
 The final output looks like this:
-![alt text](/python/readme_diagrams/5.png "CHEMBL schema") </ol>
+![5](https://user-images.githubusercontent.com/35882413/36399769-6a3e4cfc-159b-11e8-8ed7-16acdfdec27a.png)
 
 <h2> How to run? : </h2>
 <ol> - Change required input fields in the config.py file and set relevant paths. </ol>
