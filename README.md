@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project name
 Systematic approach utilizing CHEMBL similarity search to find genes for possible protein targets of a novel compound.
 
@@ -56,4 +55,3 @@ us with an inkling as to what kind of genes the novel compound may be targetting
 
 ## How to run?
 Run the main.py file in Chembl_analysis, followed by main.py in Data_visualization.
->>>>>>> bb0d6d40911224678bdf6ad24e773c0aff0f2402
