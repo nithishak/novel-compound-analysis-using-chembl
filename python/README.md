@@ -32,7 +32,7 @@ canonical smiles for compound: Oc1ccc(cc1)\N=C(\Cc2ccc(Cl)cc2)/c3ccc(O)c(O)c3O <
 
 <ol> - One way to further try to understand how the compound works might be to do a smiliarity search on CHEMBL to obtain a list of other compounds that share a chemical structure similarity of 70% or more with the compound of interest.
 This output looks like this:
-![alt text](/python/readme_diagrams/1.png "Similar compound list") </ol>
+![alt text](https://github.com/nithishak/chembl-compound-analysis/blob/master/python/readme_diagrams/1.png "Similar compound list") </ol>
 
 
 <ol> -Following this, if we wish to analyze activities of these similar compounds, we can also do so by inputing their CHEMBL_ids to the function activities. 
