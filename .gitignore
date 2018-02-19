@@ -1,6 +1,6 @@
-python/.ipynb*
-python/*.pyc
-python/*.csv
-python/config.py
-R/*.pdf
-R/config.r
+chembl-analysis/.ipynb*
+chembl-analysis/*.pyc
+chembl-analysis/*.csv
+chembl-analysis/config.py
+data-visualization/*.pdf
+data-visualization/config.r
