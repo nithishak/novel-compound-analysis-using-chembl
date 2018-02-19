@@ -1,4 +1,4 @@
-#Project name
+# Project name
 Systematic approach utilizing CHEMBL similarity search to find genes for possible protein targets of a novel compound.
 
 ## Environment
