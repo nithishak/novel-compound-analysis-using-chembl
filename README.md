@@ -1,3 +1,2 @@
-<h1> Chembl analysis </h1>
-![ScreenShot](http://github.com/nithishak/chembl-compound-analysis/blob/master/python/readme_diagrams/1.png "List of similar compounds") 
-<img src="http://github.com/nithishak/chembl-compound-analysis/blob/master/python/readme_diagrams/1.png" title="Github Logo">
+![1](https://user-images.githubusercontent.com/35882413/36399622-a9109102-159a-11e8-830d-d1d93ef5aa7c.png)
+
