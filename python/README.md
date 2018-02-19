@@ -25,20 +25,20 @@ To be able to gain better insight into genes for protein targets that a novel co
 
 
 <h2> Details: </h2>
-<ol> - We have a compound of interest that has little to no literature detailing the mechanism of action or what proteins it targets.
-The example used here is :
-compound of interest: CHEMBL1082532 (in real cases, compound is novel)
+<ol> - We have a compound of interest that has little to no literature detailing the mechanism of action or what proteins it targets. <br>
+The example used here is : <br>
+compound of interest: CHEMBL1082532 (in real cases, compound is novel) <br>
 canonical smiles for compound: Oc1ccc(cc1)\N=C(\Cc2ccc(Cl)cc2)/c3ccc(O)c(O)c3O </ol>
 
 <ol> - One way to further try to understand how the compound works might be to do a smiliarity search on CHEMBL to obtain a list of other compounds that share a chemical structure similarity of 70% or more with the compound of interest. <br>
 This output looks like this:</ol>
-![alt text](https://github.com/nithishak/chembl-compound-analysis/blob/master/python/readme_diagrams/1.png?raw=true "Similar compound list") 
+![alt text]((/readme_diagrams/1.png "List of similar compounds") 
 
 
 <ol> -Following this, if we wish to analyze activities of these similar compounds, we can also do so by inputing their CHEMBL_ids to the function activities. 
 More information can be found at https://www.ebi.ac.uk/chembl/ws
 This output looks like this:</ol>
-![alt text](python/readme_diagrams/2.png "Similar compounds' activities") 
+![alt text](/readme_diagrams/2.png "Similar compounds activities") 
 
 
 <ol> - Using the CHEMBL schema and the cheml_ids of the similar compounds, we can then utilize SQL inner joins to move across tables until we reach component synonym in the table component_synonyms - this gives us information about genes for proteins that the compounds similar to the compound of interest target. 
