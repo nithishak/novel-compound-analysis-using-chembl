@@ -1,7 +1,7 @@
 # Project name
 
 Density histograms to compare compounds similarity distribution <br>
-and <br>
+                        and <br>
 Barplots to understand top gene hits for similar compounds <br>
 
 ## Environment 
@@ -13,25 +13,22 @@ Barplots to understand top gene hits for similar compounds <br>
 -To plot bar plots of top 20 genes for proteins that the similar compounds target
 
 ## Libraries needed: 
-1. ggplot2
-To install: 
+1. ggplot2 <br>
+To install: <br>
 install.packages("ggplot2")
 2. limma
-To install: 
-source("https://bioconductor.org/biocLite.R")
+To install: <br>
+source("https://bioconductor.org/biocLite.R") <br>
 biocLite("limma")
-
 
 ## Inputs needed:
 1. Any file that contains list of similar compounds ('Sim.csv' files)
 2. Any file that contains list of genes/compound_synonyms for proteins that similar compounds target ('genes.csv' files)
 
-
 ## Files available:
 1. config.py - contains input fields as a R list
 2. functions.py - contains several helper functions
 3. main.py - contains main code which uses the helper functions
-
 
 ## Details:
 - From our previous CHEMBL_analysis, we have, a file ending with Sim.csv that contains the list of compounds which are 70% or more similar to the compound of interest, as well as a file ending with gene.csv that contains the genes for proteins that the similar compounds are likely to target.
