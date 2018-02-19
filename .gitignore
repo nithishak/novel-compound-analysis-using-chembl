@@ -1,0 +1,6 @@
+python/.ipynb*
+python/*.pyc
+python/*.csv
+python/config.py
+R/*.pdf
+R/config.r
