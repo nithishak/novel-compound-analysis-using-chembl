@@ -1,4 +1,4 @@
-<h1>Project name</h1> 
+#Project name
 
 CHEMBL Analysis of novel compound of interest
 
@@ -30,7 +30,7 @@ The example used here is : <br>
 compound of interest: CHEMBL1082532 (in real cases, compound is novel) <br>
 canonical smiles for compound: Oc1ccc(cc1)\N=C(\Cc2ccc(Cl)cc2)/c3ccc(O)c(O)c3O </ol>
 
-<ol> - One way to further try to understand how the compound works might be to do a smiliarity search on CHEMBL to obtain a list of other compounds that share a chemical structure similarity of 70% or more with the compound of interest. <br>
+2. One way to further try to understand how the compound works might be to do a smiliarity search on CHEMBL to obtain a list of other compounds that share a chemical structure similarity of 70% or more with the compound of interest. <br>
 This output looks like this:</ol>
 ![1](https://user-images.githubusercontent.com/35882413/36399622-a9109102-159a-11e8-830d-d1d93ef5aa7c.png)
 
