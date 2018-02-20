@@ -15,7 +15,7 @@ Barplots to understand top gene hits for similar compounds <br>
 ## Libraries needed: 
 1. ggplot2 <br>
 To install: <br>
-install.packages("ggplot2")
+````install.packages("ggplot2")````
 2. limma <br>
 To install: <br>
 source("https://bioconductor.org/biocLite.R") <br>
