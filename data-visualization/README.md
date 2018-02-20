@@ -18,8 +18,10 @@ To install: <br>
 ````install.packages("ggplot2")````
 2. limma <br>
 To install: <br>
+````
 source("https://bioconductor.org/biocLite.R") <br>
 biocLite("limma")
+````
 
 ## Inputs needed:
 1. Any file that contains list of similar compounds ('Sim.csv' files)
