@@ -1,6 +1,9 @@
 # Project name
 Systematic approach utilizing CHEMBL similarity search to find genes for possible protein targets of a novel compound.
 
+## Note:
+Please refer to individual directory READMEs for detailed information and instructions. Diagrams are included as well.
+
 ## Environment
 - OS: Ubuntu
 - Python : 2.X
